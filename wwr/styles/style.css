@@ -1,19 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+
+
 div#content {
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
+}
+
+#background {
+    background-color: #00B4D8;
+    height: 725px;
+    /* Adding an extra margin to #background to match assignments look. */
+    margin: 100px 0;
 }
 
 body {
     background-color: #e9e9e9;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: #0077B6;
+.book, .join {
+    text-decoration: none;
+    background-color: #03045E;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #90E0EF;
+    color: #03045E;
+    
+}
+
+.button-box {
+    text-align: center;
+}
+
+.card-img {
+    border: 10px solid #03045E;
 }
 
 footer {
     background-color: #0077B6;
     color: #03045E;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -33,43 +70,63 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-nav a {
-   text-align: center;
-   text-decoration: none;
-   color: #fff;
+footer .social img {
+    padding-top: 15px;
 }
 
-nav a:hover {
-    background-color: #90E0EF;
-    color: #03045E;
-}
-
-.home-title {
-    color: #000;
+h2 {
+    margin: 0;
 }
 
 h4 {
     color: #000;
 }
 
-.book, .join {
-    text-decoration: none;
-    background-color: #03045E;
-    color: #fff; 
+header {
+    background-color: #0077B6;
 }
 
-.book:hover, .join:hover {
-    background-color: #90E0EF;
-    color: #03045E;
-    
+#hero-img {
+    width: 100%;
 }
 
-#background {
-    background-color: #00B4D8;
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.home-title {
+    color: #000;
+    font-family: "Shrikhand";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .msg {
     background-color: #0077B6;
+    line-height: 1.5em;
+    padding: 35px;
+    /* Adding an extra margin to #background to match assignments look. */
+    margin: 200px 0;
 }
 
 .msg h2 {
@@ -78,30 +135,22 @@ h4 {
 
 .msg p {
     color: #fff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
+nav a {
+   text-align: center;
+   text-decoration: none;
+   color: #fff;
+   padding: 35px;
 }
 
-.button-box {
-    text-align: center;
+nav a:hover {
+    background-color: #90E0EF;
+    color: #03045E;
 }
 
-main section {
-    text-align: center;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
-
-#background {
-    height: 725px;
-}
-
-.logo, .icon {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
-}
-
-
