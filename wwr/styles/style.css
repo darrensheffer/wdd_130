@@ -34,8 +34,7 @@ body {
 
 .book:hover, .join:hover {
     background-color: #90E0EF;
-    color: #03045E;
-    
+    color: #03045E;  
 }
 
 .button-box {
