@@ -156,7 +156,7 @@ header {
 
 main.home-grid {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 main section {
@@ -224,12 +224,8 @@ nav a:hover {
     margin: 200px 0;
 }
 
-
-
-
-
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, main.home-grid {
         display: block;
         height: auto;
     }
@@ -270,4 +266,4 @@ nav a:hover {
     footer {
         margin-top: 25px;
     }
-}
+  }
